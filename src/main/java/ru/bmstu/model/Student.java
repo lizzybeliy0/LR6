@@ -5,6 +5,8 @@ public class Student {
     private String lastName;
     private int tokens;
 
+    public Student() {} //todo for JSON
+
     public Student(String firstName, String lastName, int tokens) {
         this.firstName = firstName;
         this.lastName = lastName;

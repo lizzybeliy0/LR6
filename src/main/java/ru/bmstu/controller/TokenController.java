@@ -1,45 +1,57 @@
 package ru.bmstu.controller;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import ru.bmstu.annotation.OnlyTeacher;
+import ru.bmstu.exception.StudentNotFoundException;
 import ru.bmstu.model.Student;
 import ru.bmstu.service.StudentService;
-import ru.bmstu.service.TokenService;
+import ru.bmstu.service.TokenServiceInt;
+
+import java.util.Collections;
 
 @RestController
 @RequestMapping("/api/v1/tokens")
 public class TokenController {
-    private final TokenService tokenService;
+    private final TokenServiceInt tokenService;
     private final StudentService studentService;
 
-    public TokenController(TokenService tokenService, StudentService studentService) {
+    public TokenController(TokenServiceInt tokenService, StudentService studentService) {
         this.tokenService = tokenService;
         this.studentService = studentService;
     }
 
-    @PostMapping("/{firstName}/{lastName}/add/{amount}")
-    public ResponseEntity<Student> addTokens(
+    @PutMapping("/{firstName}/{lastName}")
+    @OnlyTeacher
+    public ResponseEntity<Object> updateTokens(
             @PathVariable String firstName,
             @PathVariable String lastName,
-            @PathVariable int amount) {
+            @RequestBody UpdateTokenRequest request) {
+
         Student student = studentService.findStudent(firstName, lastName);
-        if (student != null) {
-            tokenService.addTokens(student, amount);
-            return ResponseEntity.ok(student);
+        if (student == null) {
+            throw new StudentNotFoundException();
         }
-        return ResponseEntity.notFound().build();
+
+        int amount = request.getTokens();
+        if (amount > 0) {
+            tokenService.addTokens(student, amount);
+        } else if (amount < 0) {
+            tokenService.deleteTokens(student, -amount);
+        }
+
+        return ResponseEntity.ok(student);
     }
 
-    @PostMapping("/{firstName}/{lastName}/subtract/{amount}")
-    public ResponseEntity<Student> subtractTokens(
-            @PathVariable String firstName,
-            @PathVariable String lastName,
-            @PathVariable int amount) {
-        Student student = studentService.findStudent(firstName, lastName);
-        if (student != null) {
-            tokenService.deleteTokens(student, amount);
-            return ResponseEntity.ok(student);
+    private static class UpdateTokenRequest {//преобразование в tokens, что бы не все тело отправлять
+        private int tokens;
+
+        public int getTokens() {
+            return tokens;
         }
-        return ResponseEntity.notFound().build();
+        public void setTokens(int tokens) {
+            this.tokens = tokens;
+        }
     }
 }

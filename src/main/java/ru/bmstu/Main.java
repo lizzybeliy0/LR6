@@ -9,29 +9,21 @@ import ru.bmstu.config.AppConfig;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Создаем сервер Jetty
         Server server = new Server(8081);
-
-        // Создаем контекст Spring
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
         context.register(AppConfig.class);
 
-        // Создаем DispatcherServlet
         DispatcherServlet dispatcherServlet = new DispatcherServlet(context);
 
-        // Создаем контекст Jetty
-        ServletContextHandler contextHandler = new ServletContextHandler(ServletContextHandler.SESSIONS);
+        ServletContextHandler contextHandler = new ServletContextHandler();
         contextHandler.setContextPath("/");
 
-        // Добавляем DispatcherServlet
         contextHandler.addServlet(new ServletHolder(dispatcherServlet), "/*");
 
-        // Устанавливаем контекст серверу
         server.setHandler(contextHandler);
 
-        // Запускаем сервер
         server.start();
-        System.out.println("Server started at http://localhost:8081");
+        System.out.println("Server started at http://localhost:8081/api/v1");
         server.join();
     }
 }

@@ -2,14 +2,13 @@ package ru.bmstu;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import ru.bmstu.annotation.OnlyTeacher;
 import ru.bmstu.aspect.RoleCheck;
 
 import ru.bmstu.model.Role;
 import ru.bmstu.model.Student;
 import ru.bmstu.repository.LogsRepository;
 import ru.bmstu.service.StudentService;
-import ru.bmstu.service.TokenService;
+import ru.bmstu.service.TokenServiceInt;
 
 import java.util.List;
 import java.util.Scanner;
@@ -17,13 +16,13 @@ import java.util.Scanner;
 @Component
 public class StudentApp {
     private final StudentService studentService;
-    private final TokenService tokenService;
+    private final TokenServiceInt tokenService;
     private final RoleCheck roleCheckAspect;
     private final Scanner scanner;
     private final LogsRepository logsRepository;
 
     @Autowired
-    public StudentApp(StudentService studentService, TokenService tokenService,
+    public StudentApp(StudentService studentService, TokenServiceInt tokenService,
                       RoleCheck roleCheckAspect, LogsRepository logsRepository) {
         this.studentService = studentService;
         this.tokenService = tokenService;

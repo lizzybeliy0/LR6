@@ -5,153 +5,226 @@
 2025-06-07T01:11:10.134063 - Action: New student - Description: Added new student: S S with 13 tokens
 2025-06-07T01:11:19.110976100 - Action: List all students - Description: User requested the list of all students
 2025-06-07T02:22:26.212177200 - Action: Authorization - Description: A A as TEACHER
-2025-06-07T02:22:34.102297600 - Action: New student - Description: Added new student: s s with 1 tokens
-2025-06-07T02:22:39.823429100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T03:01:29.788488200 - Action: Authorization - Description: A A as TEACHER
-2025-06-07T03:01:31.813004900 - Action: List all students - Description: User requested the list of all students
-2025-06-07T03:01:45.212488400 - Action: Expel student - Description: Student expelled: s s
-2025-06-07T03:01:46.678926400 - Action: List all students - Description: User requested the list of all students
-2025-06-07T03:02:00.777027200 - Action: Subtract tokens - Description: Subtracted 50 tokens from student B B_1
-2025-06-07T03:02:02.316738800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T03:02:26.088076300 - Action: Expel student - Description: Student expelled: E E
-2025-06-07T03:02:27.123481 - Action: List all students - Description: User requested the list of all students
-2025-06-07T03:02:34.599337500 - Action: New student - Description: Added new student: E E with 1 tokens
-2025-06-07T03:02:35.668135 - Action: List all students - Description: User requested the list of all students
-2025-06-07T03:02:48.931628 - Action: New student - Description: Added new student: E E with 2 tokens
-2025-06-07T03:02:51.783590200 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:33:06.597278700 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T04:33:29.431531400 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:33:42.452039700 - Action: Removed student - Description: Student E E_2 was removed
-2025-06-07T04:33:46.499129100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:34:05.137726300 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T04:34:07.829927800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:34:16.474293400 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:34:16.475214700 - Action: Removed student - Description: Student E E_1 was removed
-2025-06-07T04:34:20.002524700 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:35:30.078884500 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T04:35:32.239353 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:35:45.423137 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:35:45.423137 - Action: Removed student - Description: Student E E_1 was removed
-2025-06-07T04:35:49.202957800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:35:57.329139200 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:35:57.330156100 - Action: Removed student - Description: Student E E was removed
-2025-06-07T04:36:03.218781600 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:36:03.218781600 - Action: New student - Description: Added new student: E E with 2 tokens
-2025-06-07T04:36:04.803997600 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:48:09.685887 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T04:48:21.770300600 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T04:48:27.503743700 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:48:27.505742100 - Action: New student - Description: Added new student: e e with 1 tokens
-2025-06-07T04:48:29.389603500 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:48:37.680211100 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:48:39.247661200 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:48:47.515522300 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T04:48:48.956646 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:49:06.679323600 - Action: Authorization - Description: 2 2 as TEACHER
-2025-06-07T04:49:13.797824400 - Action: Add tokens - Description: Added 5 tokens to student E E
-2025-06-07T04:49:15.439778200 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:49:22.952959200 - Action: Take tokens - Description: Taked 10 tokens from student E E
-2025-06-07T04:49:24.307469400 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:49:30.926045 - Action: Add tokens - Description: Added 6 tokens to student E E
-2025-06-07T04:49:31.920695800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:49:36.519932400 - Action: New student - Description: Added new student: e e with 2 tokens
-2025-06-07T04:49:37.987683900 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:49:42.842019 - Action: Removed student - Description: Student e e was removed
-2025-06-07T04:49:45.178565100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T04:49:57.935925100 - Action: Authorization - Description: s s as STUDENT
-2025-06-07T04:50:02.144843 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:06:36.746185600 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T05:06:38.973039400 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:06:46.850649700 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:06:54.046177100 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:06:54.047151700 - Action: New student - Description: Added new student: W W with 2 tokens
-2025-06-07T05:06:58.057755900 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:07:23.010708200 - Action: Authorization - Description: 1 1 as TEACHER
-2025-06-07T05:07:28.491339300 - Action: Add tokens - Description: Added 10 tokens to student E E
-2025-06-07T05:07:29.698310600 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:07:46.662136100 - Action: Take tokens - Description: Taked 10 tokens from student E E
-2025-06-07T05:07:47.898905600 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:08:04.462888400 - Action: Removed student - Description: Student Test Student was removed
-2025-06-07T05:08:06.170304600 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:11:10.519684500 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T05:11:12.266936600 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:11:26.440538200 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:11:40.062010600 - Action: Authorization - Description: 2 2 as TEACHER
-2025-06-07T05:11:44.423099200 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:12:07.283329300 - Action: Removed student - Description: Student Test Student was removed
-2025-06-07T05:18:51.325516400 - Action: Authorization - Description: A A as TEACHER
-2025-06-07T05:18:53.481294 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:19:02.873985500 - Action: Add tokens - Description: Added 10 tokens to student E E
-2025-06-07T05:19:05.185941800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:24:17.003425500 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T05:24:18.161139300 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:27:37.839060800 - Action: Authorization - Description: L L as TEACHER
-2025-06-07T05:27:39.554539700 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:27:53.789433500 - Action: Take tokens - Description: Taked 10 tokens from student E E
-2025-06-07T05:28:00.769073400 - Action: New student - Description: Added new student: e e with 44 tokens
-2025-06-07T05:28:05.909873100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:28:16.597115700 - Action: Authorization - Description: w w as STUDENT
-2025-06-07T05:28:23.846440 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:28:23.847442500 - Action: Removed student - Description: Student e e was removed
-2025-06-07T05:28:25.310800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:31:08.706293700 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T05:31:22.295720 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:31:32.747886600 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:31:32.748887100 - Action: Removed student - Description: Student e e was removed
-2025-06-07T05:38:55.369622700 - Action: Authorization - Description: 2 2 as STUDENT
-2025-06-07T05:39:02.705961400 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:39:02.706961100 - Action: New student - Description: Added new student: w w with 2 tokens
-2025-06-07T05:42:11.731945900 - Action: Authorization - Description: w w as STUDENT
-2025-06-07T05:42:17.343060300 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:42:23.766337100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:42:32.857276900 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:42:44.358140 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:42:59.519337600 - Action: Authorization - Description: w w as TEACHER
-2025-06-07T05:43:01.894700300 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:43:08.527874800 - Action: Take tokens - Description: Taked 40 tokens from student e e
-2025-06-07T05:43:17.721591800 - Action: New student - Description: Added new student: w w with 100 tokens
-2025-06-07T05:43:19.563990500 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:43:29.956138300 - Action: Removed student - Description: Student E E_1 was removed
-2025-06-07T05:43:31.991660500 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:45:05.988843800 - Action: New student - Description: Added new student: Test Student_6 with 10 tokens
-2025-06-07T05:45:32.119867800 - Action: New student - Description: Added new student: Test Student_7 with 10 tokens
-2025-06-07T05:48:16.725134700 - Action: New student - Description: Added new student: Test Student_8 with 10 tokens
-2025-06-07T05:48:25.758102300 - Action: New student - Description: Added new student: Test Student_9 with 10 tokens
-2025-06-07T05:48:45.406510900 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T05:48:48.914027400 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:48:59.264170200 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:49:51.238473400 - Action: Authorization - Description: 2 2 as STUDENT
-2025-06-07T05:49:54.257138100 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T05:49:55.965374800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:50:15.334907700 - Action: Authorization - Description: w w as TEACHER
-2025-06-07T05:50:22.058229600 - Action: New student - Description: Added new student: w w_1 with 5 tokens
-2025-06-07T05:50:22.934555 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:50:30.186065 - Action: Removed student - Description: Student w w_1 was removed
-2025-06-07T05:50:39.236110500 - Action: Take tokens - Description: Taked 20 tokens from student w w
-2025-06-07T05:51:00.127093100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T05:51:30.927788800 - Action: New student - Description: Added new student: Test Student_10 with 10 tokens
-2025-06-07T05:52:22.622741400 - Action: New student - Description: Added new student: Test Student_11 with 10 tokens
-2025-06-07T06:38:07.310609800 - Action: New student - Description: Added new student: Test Student_1 with 10 tokens
-2025-06-07T06:39:52.028977300 - Action: New student - Description: Added new student: Test Student_2 with 10 tokens
-2025-06-07T10:37:06.950303300 - Action: New student - Description: Added new student: Test Student_3 with 10 tokens
-2025-06-07T10:39:51.065044400 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T10:39:58.736752600 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T10:54:18.033802600 - Action: Authorization - Description: 1 1 as TEACHER
-2025-06-07T10:54:20.173028900 - Action: List all students - Description: User requested the list of all students
-2025-06-07T10:54:28.266203500 - Action: Take tokens - Description: Taked 20 tokens from student w w
-2025-06-07T10:54:32.769624700 - Action: List all students - Description: User requested the list of all students
-2025-06-07T11:26:09.577070400 - Action: Authorization - Description: a a as TEACHER
-2025-06-07T11:26:15.165335900 - Action: List all students - Description: User requested the list of all students
-2025-06-07T11:26:30.444936600 - Action: Take tokens - Description: Taked 100 tokens from student w w
-2025-06-07T11:26:31.741971100 - Action: List all students - Description: User requested the list of all students
-2025-06-07T11:26:51.375058100 - Action: New student - Description: Added new student: q q with 5 tokens
-2025-06-07T11:26:59.524158300 - Action: Removed student - Description: Student e e was removed
-2025-06-07T11:27:01.898480800 - Action: List all students - Description: User requested the list of all students
-2025-06-07T11:27:20.937233600 - Action: Authorization - Description: 1 1 as STUDENT
-2025-06-07T11:27:27.682101 - Action: Access denied! - Description: Student attempted to perform a restricted action
-2025-06-07T11:27:32.344913400 - Action: List all students - Description: User requested the list of all students
-2025-06-07T13:37:29.714477700 - Action: New student - Description: Added new student: Test Student_4 with 10 tokens
-2025-06-07T14:11:21.413996 - Action: New student - Description: Added new student: Test Student_5 with 10 tokens
-2025-06-07T14:20:55.349090400 - Action: New student - Description: Added new student: Test Student_6 with 10 tokens
-2025-06-07T14:23:41.915835100 - Action: New student - Description: Added new student: Test Student_7 with 10 tokens
-2025-06-07T14:24:22.050914200 - Action: New student - Description: Added new student: Test Student_8 with 10 tokens
+2025-06-08T20:07:59.704709800 - Action: New student - Description: Added new student: Test Student_10 with 10 tokens
+2025-06-08T20:12:55.183951600 - Action: New student - Description: Added new student: Test Student_11 with 10 tokens
+2025-06-08T20:13:22.435280900 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T20:13:51.800311200 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T20:13:53.329196800 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T20:26:55.946797600 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T20:27:05.589684100 - Action: Authorization - Description: AAA AAA as STUDENT
+2025-06-08T20:27:14.177976500 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T20:48:53.669679 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-08T20:49:31.964612500 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-08T20:54:52.555377800 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T20:55:05.788131800 - Action: New student - Description: Added new student: Postman Postman with 10 tokens
+2025-06-08T20:57:19.779047 - Action: New student - Description: Added new student: Postman Postman_1 with 10 tokens
+2025-06-08T21:03:44.402503200 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-08T21:04:01.837249300 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T21:04:08.401688300 - Action: Removed student - Description: Student Postman Postman_1 was removed
+2025-06-08T21:04:57.229223100 - Action: Removed student - Description: Student Postman Postman was removed
+2025-06-08T21:17:00.940997800 - Action: Authorization - Description: AAA AAA as TEACHER
+2025-06-08T21:17:27.596410700 - Action: Add tokens - Description: Added 50 tokens to student q q
+2025-06-08T21:18:39.222300900 - Action: Take tokens - Description: Taked 30 tokens from student q q
+2025-06-08T21:18:57.252365700 - Action: Take tokens - Description: Taked 30 tokens from student q q
+2025-06-08T21:19:05.400646100 - Action: Add tokens - Description: Added 50 tokens to student q q
+2025-06-08T22:44:34.469038100 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-08T22:45:15.765474100 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-08T22:47:25.060386500 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-08T22:47:37.689807300 - Action: Add tokens - Description: Added 50 tokens to student q q
+2025-06-08T22:47:44.523858300 - Action: Take tokens - Description: Taked 30 tokens from student q q
+2025-06-08T22:47:54.695042300 - Action: New student - Description: Added new student: Postman Postman with 10 tokens
+2025-06-08T23:02:39.599616100 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-08T23:10:24.220759800 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-08T23:11:09.911301900 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-08T23:11:11.326567600 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-08T23:11:15.807925800 - Action: Add tokens - Description: Added 50 tokens to student q q
+2025-06-08T23:11:18.044445 - Action: Add tokens - Description: Added 50 tokens to student q q
+2025-06-08T23:18:31.115192700 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-08T23:19:25.860677300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-08T23:20:03.424136100 - Action: New student - Description: Added new student: AAA AAA with 10 tokens
+2025-06-08T23:20:42.307380300 - Action: New student - Description: Added new student: AAA AAA_1 with 10 tokens
+2025-06-09T02:37:19.921440900 - Action: New student - Description: Added new student: Test Student_12 with 10 tokens
+2025-06-09T02:37:49.978710300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T02:56:22.273907400 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T02:56:31.997337600 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T03:03:02.479564100 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T03:06:59.174683 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T03:07:04.225293700 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T03:07:10.393057300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T03:07:15.520293400 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T03:07:21.437909300 - Action: Take tokens - Description: Taked 100 tokens from student q q
+2025-06-09T03:07:24.069750700 - Action: Take tokens - Description: Taked 100 tokens from student q q
+2025-06-09T03:07:29.022207 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T03:07:33.356786800 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T03:07:53.668861100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T03:08:36.536346100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T03:08:40.969212500 - Action: Take tokens - Description: Taked 5 tokens from student q q
+2025-06-09T04:29:23.426456 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:35:09.165337400 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:35:12.956377400 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:35:15.384256600 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:35:16.640054500 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:35:20.673705800 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:35:29.688728 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T04:35:34.349717100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T04:35:35.752895600 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T04:35:37.133899200 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T04:36:01.681515700 - Action: Take tokens - Description: Taked 5 tokens from student q q
+2025-06-09T04:36:02.989213400 - Action: Take tokens - Description: Taked 5 tokens from student q q
+2025-06-09T04:36:08.213886700 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T04:37:41.514401200 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:39:53.304441700 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T04:43:31.858515100 - Action: Access denied - Description: Non-teacher tried to modify tokens
+2025-06-09T04:43:34.024970900 - Action: Access denied - Description: Non-teacher tried to modify tokens
+2025-06-09T04:43:41.605070100 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T04:43:45.877912200 - Action: Access denied - Description: Non-teacher tried to modify tokens
+2025-06-09T04:43:47.863408100 - Action: Access denied - Description: Non-teacher tried to modify tokens
+2025-06-09T04:43:49.885760900 - Action: Access denied - Description: Non-teacher tried to modify tokens
+2025-06-09T04:47:45.440237100 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T04:47:50.522505700 - Action: Access denied - Description: Non-teacher tried to modify tokens
+2025-06-09T05:02:04.561664800 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T05:02:09.774916900 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:02:20.668002600 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:02:25.848206200 - Action: Access denied! - Description: Student attempted to perform a restricted action
+2025-06-09T05:25:46.179993200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:25:51.669645 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:25:57.665278500 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:26:03.981905200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:26:05.828550 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:26:36.923996700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:26:38.920868200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:26:51.137288700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:26:57.968200400 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:27:51.355776300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T05:27:55.825969700 - Action: Removed student - Description: Student AAA AAA_1 was removed
+2025-06-09T05:28:25.593470100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T05:32:24.230014200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:32:28.357521300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T05:32:32.476443500 - Action: New student - Description: Added new student: Postman Postman_1 with 10 tokens
+2025-06-09T05:32:40.226051300 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:32:49.782173100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:32:56.243632300 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:33:04.376688700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:40:18.056237600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:41:13.898717900 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:41:37.370966300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T05:41:41.457078900 - Action: New student - Description: Added new student: Postman Postman_2 with 10 tokens
+2025-06-09T05:43:17.500234400 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:43:21.254718800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:53:25.147702400 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T05:53:48.054821800 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-09T05:54:06.960307800 - Action: Removed student - Description: Student Z Z was removed
+2025-06-09T05:54:25.616257100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T05:54:27.149331 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T05:54:35.730774200 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:54:47.098933700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:54:51.754926300 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:54:58.677523 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:57:21.658396500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:57:24.503955 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:57:29.507260 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:58:45.077126800 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T05:58:59.039782 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-09T05:59:02.221610900 - Action: Removed student - Description: Student Z Z was removed
+2025-06-09T05:59:06.921546900 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T05:59:11.566760200 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T05:59:32.211036600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:59:38.315402 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T05:59:49.955281500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T06:02:12.073246100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T06:02:54.026010 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:33:38.060485700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:33:39.532677700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:33:41.114855800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:33:48.019606900 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T08:33:51.694894900 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T08:33:54.584852900 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T08:34:04.766156600 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T08:34:08.952000500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:43:35.767422700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:43:41.318757200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:43:48.086164800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T08:43:54.732276500 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T08:44:11.213231900 - Action: Removed student - Description: Student AAA AAA was removed
+2025-06-09T08:44:25.865917700 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T08:44:33.375320100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T08:44:41.616745500 - Action: Take tokens - Description: Taked 60 tokens from student q q
+2025-06-09T08:44:48.561141100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T09:10:03.583783900 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T09:10:04.978463600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T09:10:06.186222100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T09:10:09.931041700 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T09:10:12.810498600 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T09:10:15.850950100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T09:10:19.253121600 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T09:10:22.905968 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T15:58:19.543650500 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T15:58:23.781362500 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T15:58:24.996854100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T16:55:44.045363 - Action: New student - Description: Added new student: Test Student_13 with 10 tokens
+2025-06-09T17:00:41.032528300 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T17:00:44.708567100 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T17:00:45.944531300 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T17:00:55.296195600 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-09T17:00:59.363002700 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T17:01:02.756080100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T17:01:06.708907400 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T17:15:35.863209500 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T17:15:40.886102300 - Action: New student - Description: Added new student: Z Z_1 with 10 tokens
+2025-06-09T17:15:45.459253600 - Action: Removed student - Description: Student Z Z was removed
+2025-06-09T17:15:49.857739300 - Action: Removed student - Description: Student Z Z_1 was removed
+2025-06-09T17:16:21.712430200 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T17:16:22.945201300 - Action: Add tokens - Description: Added 5 tokens to student q q
+2025-06-09T17:16:26.843608100 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T17:16:30.942631700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T17:16:35.715669400 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T17:16:39.553092700 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T17:56:32.389823100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T17:56:34.230298900 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:07:41.765505600 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T18:07:57.193098300 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-09T18:08:06.901049300 - Action: Removed student - Description: Student Z Z was removed
+2025-06-09T18:09:34.723067100 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-09T18:09:37.905280300 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:43:53.872832700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:43:55.128823800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:43:56.325643600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:44:00.072562500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:44:02.074581800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T18:44:06.620554500 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T19:30:26.941941900 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:30.781187500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:32.043026100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:36.230843100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:37.381335500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:38.388385500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:42.269004200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:45.731857 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:46.969114200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:30:54.324567800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:31:09.326082400 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:31:10.191731100 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:31:17.052207800 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T19:57:33.747706200 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:57:35.623553 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:57:38.926719700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-09T19:57:42.423546800 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-09T19:57:53.947318700 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-09T19:57:57.430865 - Action: Removed student - Description: Student Z Z was removed
+2025-06-10T04:54:40.015023 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T04:54:42.308072800 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T04:54:53.014748900 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-10T04:55:01.261912600 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-10T04:55:02.331268100 - Action: New student - Description: Added new student: Z Z_1 with 10 tokens
+2025-06-10T04:55:05.907845400 - Action: Removed student - Description: Student Z Z was removed
+2025-06-10T09:15:56.548004700 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T09:16:00.386300600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T09:16:01.973831600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T09:16:07.252766100 - Action: Authorization - Description: Postman Postman as TEACHER
+2025-06-10T09:16:14.221608900 - Action: New student - Description: Added new student: Z Z with 10 tokens
+2025-06-10T09:16:17.223516800 - Action: Removed student - Description: Student Z Z was removed
+2025-06-10T12:02:16.432967500 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T12:23:37.298928400 - Action: Authorization - Description: Postman Postman as STUDENT
+2025-06-10T12:23:41.377079400 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T12:23:46.079900600 - Action: Access denied - Description: Error: this operation is allowed for teachers only.
+2025-06-10T12:23:50.871763 - Action: Authorization - Description: Postman Postman as TEACHER
